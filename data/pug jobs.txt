@@ -1,5 +1,7 @@
 mission "Pug cargo "
 	description "Bring <cargo> to <planet>"
+	source
+		government "Pug"
 	destination 
 		attributes "messier"
 	cargo "Antihydric catalysts" 50
