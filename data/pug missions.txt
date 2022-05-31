@@ -1,0 +1,24 @@
+# Note: Disable, tabulation is crucial
+mission "Pug Messier 101: First contact 1"
+    landing
+    name "Pug Messier 101: First contact 1"
+    description "Find out about these pugs in this faraway galaxy"
+    source 
+        attributes "pug" "messier"
+    #destination "Agaigh'a Pug"
+    on offer
+        conversation
+            `After having walked around the spaceport for at least 3 hours, asking everything in sight, even the bins, in hope someone or something will pay you at least a bit of attention, a Pug comes to you and asks, with a seemingly annoyed tone: "What does the monkey want?"`
+            choice
+                `   "(Ask him about this galaxy)"`
+
+            `You ask him about this galaxy.`
+            `   "I won't give you the answer you want."`
+
+            choice 
+                `   "(Ask him again)"`
+
+            `You ask him again`
+            `   "Perhaps this little human can't process what I've just said: I won't give you the answer you want."`
+            `He then resumes walking as if nothing had happened`
+                accept

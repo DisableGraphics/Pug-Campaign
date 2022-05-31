@@ -1,0 +1,69 @@
+ship "Pug Arfecta" "Pug Arfecta (No camo)"
+    sprite "ship/pug arfecta"
+    thumbnail "thumbnail/pug arfecta"
+    attributes
+    category "Medium Warship"
+        "cost" 90000000
+        "shields" 98000
+        "hull" 80000
+        "required crew" 36
+        "bunks" 46
+        "mass" 670
+        "drag" 7.5
+        "heat dissipation" .8
+        "fuel capacity" 1200
+        "cargo space" 64
+        "outfit space" 640
+        "weapon capacity" 390
+        "engine capacity" 220
+        "energy capacity" 10000
+        "energy generation" 200
+        "heat generation" 10
+        "shield generation" 32
+        "shield energy" 32
+        "hull repair rate" 5
+        "hull energy" 5
+        "cloaking fuel" -.2
+        "reverse thrust" 66
+        "reverse thrusting energy" 4.9
+        "reverse thrusting heat" 6.9
+        weapon
+            "blast radius" 320
+            "shield damage" 9000
+            "hull damage" 4500
+            "hit force" 7000
+        outfits
+            "Tier 3 Anti-Missile" 2
+            "Pug Gridfire Turret" 3
+
+            "Pug Biodefenses" 12
+            "Pug Peacekeeping Staff" 36
+
+            "Pug Lohmar Thruster"
+            "Pug Lohmar Steering" 2
+            "Jump Drive"
+
+        engine -15 164
+        engine 15 164
+        turret -50 -29 "Tier 3 Anti-Missile"
+        turret 50 -29 "Tier 3 Anti-Missile"
+        turret 0 40 "Pug Gridfire Turret"
+        turret -73 84 "Pug Gridfire Turret"
+        turret 73 84 "Pug Gridfire Turret"
+        explode "pug tiny explosion" 100
+        explode "pug small explosion" 60
+        explode "pug medium explosion" 30
+        explode "pug large explosion" 10
+        "final explode" "final explosion large"
+        description `This is a Pug "tier 3" warship, intended for use in combat against either a species on par with the Quarg, or a lesser species that has decided to be particularly meddlesome.`
+
+fleet "Pug War Small"
+    government "Pug"
+    names "pug"
+    personality
+        heroic
+    cargo 1
+    variant 1
+        "Pug Arfecta (No camo)"
+    variant 2
+        "Pug Maboro" 5

@@ -1,0 +1,12 @@
+mission "Pug cargo "
+	description "Bring <cargo> to <planet>"
+	destination 
+		attributes "messier"
+	cargo "Antihydric catalysts" 50
+	job
+	repeat
+	to offer
+		random < 35
+	on complete
+		dialog "The Pug in charge pays you <payment> credits with a smug face."
+		payment 500000
