@@ -4,7 +4,7 @@ galaxy "Pug Galaxy"
 	sprite galaxy/messier101
 
 system Ka'akcha
-	pos -4906.1 500.99
+	pos -4906.1 525.99
 	government Wanderer
 	habitable 973.36
 	belt 1461
@@ -272,7 +272,7 @@ planet "Agaigh'a Pug"
 	description `This planet seems to be an outpost of some sort. There are some small cities with enough separation that it would be cheaper to travel between them using a spaceship. The dry surface of this planet must have propiciated this, though.`
 	spaceport `You cannot stop being impressed by the lack of hospitality of the Pugs. Nobody seems to give you the time of the day, despite the fact that you have tried to talk to every single being here. `
 
-planet "Ayik'arai"
+planet Ayik'arai
 	attributes wanderer
 	landscape land/bwerner5
 	description `Unexpectedly, there's a Wanderer planet in this galaxy, although it looks normal for a Wanderer planet: Ayik'arai has been taken care of and the nature is absolutely bewitching.`
