@@ -65,5 +65,7 @@ fleet "Pug War Small"
     cargo 1
     variant 1
         "Pug Arfecta (No camo)"
+        "Pug Maboro"
     variant 2
-        "Pug Maboro" 5
+        "Pug Arfecta (No camo)"
+        "Pug Enfolta" 2
