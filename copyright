@@ -1,0 +1,12 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: endless-sky-pug-campaign
+Upstream-Contact: DisableGraphics
+Source: https://github.com/DisableGraphics/Pug-Campaign
+
+Files: *
+Copyright: Copyright DisableGraphics
+License: GPL-3+
+
+Files: images/*
+Copyright: Copyright ESA/Hubble
+License: CC-BY-SA-4.0
