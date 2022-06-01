@@ -1,11 +1,11 @@
-# Note: Disable, tabulation is crucial
+# Note: THE FUCKING INDENTATION AAAAAAAAAAAAAAAAAAaa
 mission "Pug Messier 101: First contact 1"
     landing
     name "Pug Messier 101: First contact 1"
     description "Find out about these pugs in this faraway galaxy"
     source 
-        attributes "pug" "messier"
-    #destination "Agaigh'a Pug"
+        attributes "messier"
+    destination "Agaigh'a Pug"
     on offer
         conversation
             `After having walked around the spaceport for at least 3 hours, asking everything in sight, even the bins, in hope someone or something will pay you at least a bit of attention, a Pug comes to you and asks, with a seemingly annoyed tone: "What does the monkey want?"`
@@ -21,4 +21,25 @@ mission "Pug Messier 101: First contact 1"
             `You ask him again`
             `   "Perhaps this little human can't process what I've just said: I won't give you the answer you want."`
             `He then resumes walking as if nothing had happened`
+            choice 
+                `   "(Ask somebody else)"`
+                    goto "asked-someone"
+                `   "(Desist and go back to your ship)"`
+                    decline
+            
+            label "asked-someone"
+            `Another 3 hours have already passed. You've begun asking even the pebbles in the street due to the desperation. Then, a Pug that looks like he is in charge of a mental hospital asks you: "Is the human alright?"`
+            `   "Well yes, I'm only trying to find someone to answer my questions" - You say`
+            `   "The human won't receive any answers here. Maybe if he goes to Aghaigh'a Pug he will find something." - he says`
                 accept
+    on complete
+        conversation
+            `As always, you encounter enormous difficulty in finding someone to ask.`
+            `However, after only 15 minutes, you are able to ask a random passerby, who says:`
+            `   "Ah yes, the galaxy that connects with the wormhole in this system. Humans call it 'Messier 101'."`
+            choice
+                `   "(What are the Pug doing there?)"`
+            
+            `   "What we do in other regions of the universe does not involve humans"`
+            `And he walks away`
+            `You begin asking yourself why the Pug are so unhelpful`
