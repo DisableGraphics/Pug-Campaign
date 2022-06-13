@@ -86,7 +86,7 @@ mission "Pug Messier 101: One of them"
             "Here it is: The Arfecta that the Pug told you to fight. In a few moments, a great battle will begin..."
     npc kill
         system "Pug Nife"
-        government "Pug (Hostile)"
+        government "Annoying Pug"
         personality nemesis unconstrained staying
         ship "Pug Arfecta" "Isks Dee Ahg"
     on complete

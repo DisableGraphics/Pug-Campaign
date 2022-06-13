@@ -1,0 +1,9 @@
+government "Annoying Pug" #In order to not have conflicts with another plugins, namely this one: https://github.com/Wyrdean/Pug-Defense
+    "display name" "Pug (Hostile)"
+    "player reputation" -1000
+    swizzle 0
+	color .99 .89 .70
+    "friendly hail" "friendly pug"
+    "friendly disabled hail" "friendly disabled pug"
+    "hostile hail" "hostile pug"
+    "hostile disabled hail" "hostile pug"
