@@ -1,0 +1,71 @@
+mission "Wanderers in Messier 101"
+    landing
+    name "Wanderers in Messier 101"
+    source "Ayik'arai"
+    destination "Vara K'chrai"
+    to offer
+        has "Pug Messier 101: One of them: done"
+    on offer
+        conversation
+            `A bunch of wanderers are carrying some crates, others are busy trying to load them into a truck-like hovering vehicle, while children play some game similar to tag not too far from the workers. Another one seems to be inspecting you from far away. One of the kids grabs you by the hand and begins to say something you can't understand.`
+            `Your badge falls with the sudden grab and then the spaceport becomes absolutely silent. Inmediately, they make a wall by grabbing their wings around you, probably to not let you escape, as they make way for a wanderer with a cap on its head. It says:`
+            `   "Aa'kkao lkikk'i a"`
+            `   "What?"`
+            `The wanderer presses your badge and talks to it:`
+            `   "What are you?"`
+            `You grab the badge and say:`
+            `   "A human"`
+            `   "We do not know your kind. Why do you have the badge of the keepers?"`
+            `You take notice in that they're not speaking with [brackets, ortographic symbols]. It seems that this translation device works rather better than the one you received from the Hai.`
+
+            choice
+                `   "(I passed their acceptance test and so I've been given this.)"`
+            `The wanderer begins to look rather worried.`
+            `   "You defeated the Arfecta?"`
+            `   "Err... Yes?"`
+            `He takes a good look at you. He then asks:`
+            `   "Are you 'humans' this powerful?"`
+
+            choice
+                `   "(Well... no. I'm the exception to the rule. Humanity is really weak)"`
+                    goto "weak"
+                `   "(Humans shape galaxies for sport. And all our pets are birds)"`
+                    goto "scared"
+                
+            label "weak"
+            `The wanderer breaths a sigh of relief. He then notices the Wanderer licenses you have and shouts:`
+            `   "You have made contact with our brothers and sisters in the Milky Way?"`
+
+            choice
+                `   "(Yes, I have. I'm from the Milky Way too)"`
+            `He then adds with a rather desolate face:`
+            `   "We wanderers from Messier 101 aspire to be like them. They shape barren worlds while we exhaust the resources from this lonely planet"`
+            `Taking into account the seriousness you've seen from the wanderers in renovating destroyed planets, you can only guess the humilliation these wanderers have in this galaxy.`
+
+            choice
+                `   "(So, what are you doing here?)"`
+            `   "This is our native planet. From the keepers we received the task of renovating systems, but they gave us one sole condition: To keep this planet in perfect shape. The keepers told us not to become extinct."`
+            `   "Also, will you give our companions in the Milky Way greetings from here?"`
+
+            choice
+                `   "(Of course!)"`
+                    accept
+                `   "(Nah, I'm not in the mood for this)"`
+                    fail
+
+            label "scared"
+            `The wanderer looks at you and says:`
+            `   "You can't possibly be joking, right?"`
+            `   "No, I'm not. Humans are terrifying, powerful and almost invincible creatures."`
+            `He shouts something to the spaceport crowd and they grab you. Trying to break free, you receive a shot.`
+                die
+    on complete
+        conversation
+            `You find Iktat Rek giving orders to a bunch of wanderers. Rek seems to be surprised by your presence:`
+            `   "If it isn't Captain <last>! What [brings, delivers] you here?"`
+            choice
+                `   "(I've discovered some wanderers in a faraway galaxy. They send regards.)"`
+
+            `Iktat turns around and shouts:`
+            `   "Our ancestors from Messier 101 send regards to us!"`
+            `The wanderers begin dancing. You end up dragged into the dance, which lasts at least 15 minutes. With your hips at the point of giving up, you say the wanderers goodbye.`

@@ -1,4 +1,3 @@
-# Note: THE FUCKING INDENTATION AAAAAAAAAAAAAAAAAAaa
 mission "Pug Messier 101: First contact 1"
     landing
     name "Pug Messier 101: First contact 1"
@@ -42,4 +41,80 @@ mission "Pug Messier 101: First contact 1"
             
             `   "What we do in other regions of the universe does not involve humans"`
             `And he walks away`
-            `You begin asking yourself why the Pug are so unhelpful`
+            `You begin asking yourself why the Pug are so unhelpful and who's gonna pay for your lost time.`
+
+mission "Pug Messier 101: One of them"
+    landing
+    name "Destroy ship in Pug Nife"
+    source
+        attributes "messier"
+    waypoint "Pug Nife"
+    to offer
+        has "Pug Messier 101: First contact 1: done"
+    on offer
+        conversation
+            `Frustrated due to the lack of attention given by the Pug, you yell:`
+            `   "Why are all of you such unhelpful individuals!"`
+            `And begin cussing and screaming mentions to their mothers, when every single Pug in the spaceport instantaneously shouts: `
+            `   "Shut up! What do you want, you annoying monkey!?"`
+            `Since their voice buzzes a little bit, the collective shout sounds like someone trying to say something using a broken computer speaker.`
+            `Realising you've become the center of attention thanks to your fit of anger, you begin to feel embarrassed. You muster up courage and say:`
+            `   "How can I make you pay me at least a bit of attention?"`
+            `They begin whispering to each other. This takes quite some time, and you look at your watch repeatedly. Around 15 minutes have passed when they finish and one of them says:`
+            `   "If you want to become one of us, you must first pass a test."`
+            choice
+                `   "(What test?)"`
+            
+            `   "The test involves fighting one of our warships. The same ship we've used in your Milky Way: The Arfecta"`
+            `You recall the name of the ship used in keeping the Unfettered at bay.`
+            `   "The human will destroy it. The human can keep it if it manages to disable the ship."`
+            choice
+                `   "(But that ship is far too powerful!)"`
+            `One of them says:`
+            `   "Do you want to be one of us or do you want to be forever ignored? The choice is yours to make."`
+            choice
+                `   "(Ok, I'll try)"`
+                    goto "fight"
+                `   "(Decline and go to your ship)"`
+                    decline
+            label "fight"
+            `   "The ship will be in Pug Nife, waiting for the human to come"`
+                accept
+
+    on enter "Pug Nife"
+        conversation
+            "Here it is: The Arfecta that the Pug told you to fight. In a few moments, a great battle will begin..."
+    npc kill
+        system "Pug Nife"
+        government "Pug (Hostile)"
+        personality nemesis unconstrained staying
+        ship "Pug Arfecta" "Isks Dee Ahg"
+    on complete
+        conversation
+            `The greatest concentration of Pugs you've ever seen is waiting in the airport. You hear some of them groaning and others whispering.`
+            `   "I've defeated the Arfecta." - You say with a huge grin in your face.`
+            `The Pugs make way for a small committee with grey armbands in their arms. The Pug that seems to be the leader turns to the Pug multitude and says:`
+            `   "This human has defeated the Arfecta. The human has passed the test to be welcome between us."`
+            `And, with an undertone, murmurs:`
+            `   "We won't be able to get rid of him..."`
+            `The leader turns to you and says with a serious tone: `
+            `   "You, human, have passed the test. But remember: The human is one of us in name only. It doesn't receive access to our technology. Specially if it has managed to defeat the Arfecta."`
+            `He then gives you a small metal plate with some engravings in what seems to be the Pug language. Of course, you can't make any heads or tails from the letters.`
+            `   "Show this badge wherever you go and you will receive the attention you demand."`
+            choice
+                `   "(What did you say? You know, the thing about getting rid of me)"`
+                    goto "anger-issue"
+                `   "(Thank you very much)"`
+                    goto "end"
+            
+            label "anger-issue"
+            `   "Is this human implying that I've said something like that?"`
+            `   "Exactly"`
+            `Without any warning, the Pug grabs a peacekeeping staff from seemingly nowhere and zaps you in the face. The tingling sentation of flowers and goodness inmediately falls into a enormous pain in the forehead. You fall to the floor while screaming in pain. You won't be able to think straight for at least two weeks.`
+                die
+            
+            label "end"
+            `The alien seems to ignore your thanks and says:`
+            `   "Before the human goes, we must warn it: Don't dirty the name of the Pug. We are powerful and resourceful. The human will be sorry if it does."`
+            `With this, he goes and the spaceport returns to its former hustle. As mysterious as ever, these Pug.`
+        

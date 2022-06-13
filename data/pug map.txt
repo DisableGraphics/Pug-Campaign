@@ -260,6 +260,49 @@ system "Pug Miv"
 			distance 271
 			period 14.714
 
+system "Pug Nife"
+	pos -5039.63 383.1
+	government Uninhabited
+	habitable 625
+	belt 1485
+	asteroids "medium rock" 18 3.645
+	asteroids "large rock" 4 4.95
+	asteroids "small metal" 9 3.015
+	asteroids "medium metal" 46 4.32
+	asteroids "large metal" 8 4.095
+	minables aluminum 4 4.16473
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert0
+		distance 176.01
+		period 37.3616
+	object
+		sprite planet/gas4
+		distance 856.37
+		period 400.97
+		object
+			sprite planet/rock14
+			distance 278
+			period 16.348
+		object
+			sprite planet/oberon
+			distance 415
+			period 29.8174
+	object
+		sprite planet/gas0
+		distance 1612.98
+		period 1036.49
+	object
+		sprite planet/uranus
+		distance 2352.98
+		period 1826.2
+		object
+			sprite planet/dust0
+			distance 208
+			period 12.8165
+
 planet "Aegh Pug"
 	attributes pug messier
 	landscape land/sky1
@@ -273,7 +316,7 @@ planet "Agaigh'a Pug"
 	spaceport `You cannot stop being impressed by the lack of hospitality of the Pugs. Nobody seems to give you the time of the day, despite the fact that you have tried to talk to every single being here. `
 
 planet Ayik'arai
-	attributes wanderer
+	attributes wanderer wanmes
 	landscape land/bwerner5
 	description `Unexpectedly, there's a Wanderer planet in this galaxy, although it looks normal for a Wanderer planet: Ayik'arai has been taken care of and the nature is absolutely bewitching.`
 	spaceport `Anyone would have confused the spaceport with an old hangar, as it's an almost derelict structure that creaks with terrifying noises whenever a spaceship lands on it. There's no shops here, presumably they are in another building that won't fall in a not so long time.`
