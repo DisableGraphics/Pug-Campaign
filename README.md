@@ -11,7 +11,7 @@ The objective of this plugin is to be merged with the main game at some point. P
 - Pugs are expected to sound haughty, poetic and almost passive-aggressive. This is a more complicated style than I've previously anticipated.
 - My conversation writing skills are still pretty limited, mainly because I'm not a native English speaker, but rather speak it as a second language. 
 - The content must have a rather extensive quality check, as it will probably be merged with the main game at some point.
-- I've made a "Pug War Small" fleet that most surely breaks the balance in the game, as it contains Pug Arfectas. I _do_ want to add Pug Arfectas as parts of fleets, but their exclusiveness dies(In the main game, there are only 3 of these). Maybe if this campaign was available _after_ every single campaign, probably it won't break balance _so_ much.
+- I've made a "Pug War Small" fleet that most surely breaks the balance in the game, as it contains Pug Arfectas. I _do_ want to add Pug Arfectas as parts of fleets, but their exclusiveness dies(In the main game, there are only 3 of these). Maybe if this campaign was available _after_ every single campaign, probably it won't break balance _so_ much. On the other hand, the Arfectas inmediately engage in camouflage behaviour, so nobody can see them nor know they even are in the asme system as you (If you're friendly with the Pug, of course). Adding a non-camouflage Arfecta ends up with unexpected behaviour, as they inmediately are disabled after taking off, and they dissapear, making the ships from their fleet unable to jump to other systems.
 
 # Acknowledgements
 Special thanks to:
