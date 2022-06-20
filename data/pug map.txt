@@ -1,7 +1,116 @@
 
-galaxy "Pug Galaxy"
+galaxy "Messier 101"
 	pos -5000 500
 	sprite galaxy/messier101
+
+galaxy "Messier 51"
+	pos -3000 16000
+	sprite galaxy/messier51
+
+system Fraka'hte
+	pos -3353.03 15808.7
+	government "Kor Sestor"
+	habitable 2798.68
+	belt 1830
+	link Negerestuk
+	link Tikeresto
+	asteroids "small rock" 12 1.914
+	asteroids "medium rock" 4 4.002
+	asteroids "large rock" 4 3.451
+	asteroids "large metal" 1 3.248
+	minables lead 5 2.74804
+	object
+		sprite star/f0
+		distance 18.5667
+		period 10.1888
+	object
+		sprite star/k5
+		distance 103.433
+		period 10.1888
+		offset 180
+	object
+		sprite planet/ice6
+		distance 261.323
+		period 31.9412
+	object
+		sprite planet/io
+		distance 422.573
+		period 65.6805
+	object Ekrefesht
+		sprite planet/neptune
+		distance 1071.93
+		period 265.36
+	object
+		sprite planet/rock19
+		distance 1517.09
+		period 446.788
+		object
+			sprite planet/rock17
+			distance 120
+			period 17.5682
+	object
+		sprite planet/dust5
+		distance 3484.34
+		period 1555.12
+
+system Helezek'hreb
+	pos -3223.49 15950.3
+	government Sheragi
+	habitable 1215
+	belt 1770
+	asteroids "small rock" 2 1.365
+	asteroids "medium rock" 73 1.53
+	asteroids "large rock" 19 1.26
+	asteroids "small metal" 27 1.335
+	asteroids "medium metal" 39 1.95
+	asteroids "large metal" 21 0.87
+	minables silver 6 2.38438
+	object
+		sprite star/g0
+		distance 10.2222
+		period 10.1264
+	object
+		sprite star/m8
+		distance 81.7778
+		period 10.1264
+		offset 180
+	object Negehe'zira
+		sprite planet/ice4
+		distance 309.051
+		period 62.3473
+		offset 145.223
+	object
+		sprite planet/gas13
+		distance 770.593
+		period 245.476
+		offset 270.386
+	object
+		sprite planet/gas17
+		distance 1587.84
+		period 726.078
+		offset 89.9188
+		object
+			sprite planet/desert4
+			distance 225
+			period 14.4194
+	object
+		sprite planet/tethys
+		distance 1975.68
+		period 1007.74
+		offset 50.6704
+	object
+		sprite planet/gas5
+		distance 2718.68
+		period 1626.71
+		offset 22.1434
+		object
+			sprite planet/dust5
+			distance 275
+			period 15.1651
+		object
+			sprite planet/europa
+			distance 378
+			period 24.4391
 
 system Ka'akcha
 	pos -4906.1 525.99
@@ -49,6 +158,49 @@ system Ka'akcha
 		distance 2732.7
 		period 1831.52
 		offset 50.7235
+
+system Negerestuk
+	pos -3311.61 15875.7
+	government "Kor Sestor"
+	habitable 625
+	belt 1579
+	link Fraka'hte
+	asteroids "small rock" 2 1.365
+	asteroids "medium rock" 73 1.53
+	asteroids "large rock" 19 1.26
+	asteroids "small metal" 27 1.335
+	asteroids "medium metal" 39 1.95
+	asteroids "large metal" 21 0.87
+	minables iron 37 2.79415
+	minables lead 48 2.6531
+	fleet "Large Kor Sestor" 4500
+	fleet "Small Kor Sestor" 2500
+	object
+		sprite star/g5
+		period 10
+	object Raikinasti
+		sprite planet/rock10
+		distance 261.36
+		period 67.605
+	object
+		sprite planet/rock18
+		distance 897.943
+		period 430.52
+		offset 52.3214
+	object
+		sprite planet/forest5
+		distance 1592.94
+		period 1017.23
+		offset 168.36
+	object
+		sprite planet/gas15
+		distance 3006.7
+		period 2637.88
+		offset 111.068
+		object
+			sprite planet/dust3
+			distance 194
+			period 14.2233
 
 system "Pug Aika"
 	pos -4954 417
@@ -274,6 +426,10 @@ system "Pug Nife"
 	object
 		sprite star/g5
 		period 10
+	object "Messier 51 Wormhole"
+		sprite planet/wormhole-red
+		distance 1400
+		period 13.8
 	object
 		sprite planet/desert0
 		distance 176.01
@@ -303,6 +459,130 @@ system "Pug Nife"
 			distance 208
 			period 12.8165
 
+system "Pug Vigi"
+	pos -3312.01 15970.2
+	government Pug
+	habitable 625
+	belt 1382
+	asteroids "small rock" 10 4.08
+	asteroids "medium rock" 9 2.25
+	asteroids "large rock" 13 2.07
+	asteroids "small metal" 26 2.22
+	asteroids "medium metal" 64 1.95
+	asteroids "large metal" 5 3.69
+	minables gold 4 2.63677
+	minables lead 4 4.51595
+	fleet "Small Pug" 1500
+	fleet "Large Pug" 4000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock16
+		distance 202.25
+		period 46.0207
+		offset 39.5955
+	object
+		sprite planet/desert3
+		distance 410.21
+		period 132.932
+		offset 234.791
+	object "Fera Pug"
+		sprite planet/rock10
+		distance 754.75
+		period 331.761
+		offset 71.5834
+		object
+			sprite planet/tethys
+			distance 179
+			period 20.1556
+	object
+		sprite planet/gas10
+		distance 1640.24
+		period 1062.87
+		offset 184.117
+		object
+			sprite planet/dust7
+			distance 219
+			period 17.0594
+	object
+		sprite planet/gas8
+		distance 4658.85
+		period 5087.89
+		offset 44.8409
+		object
+			sprite planet/callisto
+			distance 217
+			period 17.0164
+		object
+			sprite planet/desert4
+			distance 366
+			period 37.2734
+	object "Messier 51 Wormhole"
+		sprite planet/wormhole-red
+		distance 1400
+		period 19.8
+
+system Tikeresto
+	pos -3278.03 15771.7
+	government "Kor Sestor"
+	habitable 760
+	belt 1127
+	link Fraka'hte
+	asteroids "small rock" 3 4.0176
+	asteroids "medium rock" 93 6.264
+	asteroids "large rock" 145 4.2336
+	asteroids "small metal" 25 4.8384
+	asteroids "medium metal" 40 6.3072
+	asteroids "large metal" 75 4.7952
+	minables gold 78 7.24063
+	minables iron 138 5.90562
+	object
+		sprite star/g5
+		distance 15.2763
+		period 11.5718
+		offset 180
+	object
+		sprite star/m8
+		distance 70.7237
+		period 11.5718
+	object
+		sprite planet/cloud4
+		distance 274.334
+		period 65.9283
+	object
+		sprite planet/desert1
+		distance 670.544
+		period 251.938
+		object
+			sprite planet/callisto
+			distance 193
+			period 23.2747
+	object
+		sprite planet/gas13
+		distance 1516.3
+		period 856.707
+		object
+			sprite planet/rock7
+			distance 252
+			period 11.293
+		object
+			sprite planet/desert4
+			distance 369
+			period 20.0101
+	object
+		sprite planet/gas9
+		distance 2962.74
+		period 2339.88
+		object
+			sprite planet/dust4
+			distance 246
+			period 14.4675
+		object
+			sprite planet/dust3
+			distance 391
+			period 28.9905
+
 planet "Aegh Pug"
 	attributes pug messier
 	landscape land/sky1
@@ -321,11 +601,29 @@ planet Ayik'arai
 	description `Unexpectedly, there's a Wanderer planet in this galaxy, although it looks normal for a Wanderer planet: Ayik'arai has been taken care of and the nature is absolutely bewitching.`
 	spaceport `Anyone would have confused the spaceport with an old hangar, as it's an almost derelict structure that creaks with terrifying noises whenever a spaceship lands on it. There's no shops here, presumably they are in another building that won't fall in a not so long time.`
 
+planet Ekrefesht
+	attributes "kor sestor"
+	landscape land/badlands8
+	description `As surprising as it is, there's a Kor Sestor base located here. The planet looks good for now, but you've seen enough Sestor planets to know that it's going to become a wasteland in no time.`
+
 planet "Enuf Pug"
 	attributes pug messier
 	landscape land/beach10-sfiera
 	description `This world is fairly industrialized in comparison with other Pug planets. There are only three cities with a small number of factories that, surprisingly, do not emit any smoke.`
 	spaceport `The spaceport is a building located in the middle of the biggest city. As always, you cannot but feel amazed at the architecture of the spaceport.`
+
+planet "Fera Pug"
+	attributes m51
+	landscape land/fields7
+	description `The planet looks rather ugly: the nature consists of some bushes here and there and some patches of grass. Moreover, the vegetation looks like it was imported from another planet, since it doesn't blend with the surface too much. The oceans are miniscule, and the rivers so small that this planet looks like it's in a permanent state of drought. The biggest settlement is just a bunch of Pug houses with a rather derelict street in the middle.`
+	spaceport `The spaceport fits perfectly this place: an almost forgotten building that looks like it will fall down anytime. However, you trust the Pug and park your spaceship in the place. The Pug here have a rather weird outfit, like it was made from a bunch of mattresses put together. Maybe it's for preventing damages...`
+
+planet "Messier 51 Wormhole"
+
+planet Negehe'zira
+	attributes sheragi
+	description `You can't believe what you're seeing: this is a sheragi planet. The cities feature an incredibly accurate hexagonally shaped buildings that are much taller than everything you've found in human space.`
+	spaceport `At first sight, you're not given much attention. However, you can see the sheragis giving you a glance from afar. A small sheragi points its wing to you, saying something to the person next to it.`
 
 planet "Niri Pug"
 	attributes pug messier
@@ -336,3 +634,8 @@ planet "Niri Pug"
 	security 0.9
 
 planet "Pug Galaxy Wormhole"
+
+planet Raikinasti
+	attributes `"kor sestor"`
+	description `This planet seems to be more exploited than the others you've seen in this galaxy. Small, rover-like automata with a small laser zap constantly rocks in search of metals and other minerals in order to build newer generations of gigantic warships.`
+
