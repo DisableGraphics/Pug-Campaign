@@ -101,6 +101,7 @@ mission "Pug Messier 101: One of them"
             `   "You, human, have passed the test. But remember: The human is one of us in name only. It doesn't receive access to our technology. Specially if it has managed to defeat the Arfecta."`
             `He then gives you a small metal plate with some engravings in what seems to be the Pug language. Of course, you can't make any heads or tails from the letters.`
             `   "Show this badge wherever you go and you will receive the attention you demand."`
+            `   "Also, the human will be able to do jobs for us."`
             choice
                 `   "(What did you say? You know, the thing about getting rid of me)"`
                     goto "anger-issue"

@@ -336,5 +336,3 @@ planet "Niri Pug"
 	security 0.9
 
 planet "Pug Galaxy Wormhole"
-	attributes "requires: quantum keystone"
-

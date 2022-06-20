@@ -1,14 +1,21 @@
-mission "Pug cargo "
-	description "Bring <cargo> to <planet>"
+mission "Large Bulk Delivery [1]"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	source
 		government "Pug"
 	destination 
+		distance 1 5
 		attributes "messier"
-	cargo "Antihydric catalysts" 50
+	cargo random 50 2 .6
 	job
 	repeat
 	to offer
 		random < 35
+		"cargo space" > 55
+		has "Pug Messier 101: One of them: done"
+	on visit
+		dialog phrase "generic cargo on visit"
 	on complete
-		dialog "The Pug in charge pays you <payment> credits with a smug face."
+		payment
 		payment 500000
+		dialog phrase "generic cargo delivery payment"
+		
