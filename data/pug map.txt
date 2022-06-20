@@ -57,14 +57,15 @@ system Helezek'hreb
 	pos -3223.49 15950.3
 	government Sheragi
 	habitable 1215
-	belt 1770
+	belt 1130
 	asteroids "small rock" 2 1.365
 	asteroids "medium rock" 73 1.53
 	asteroids "large rock" 19 1.26
 	asteroids "small metal" 27 1.335
 	asteroids "medium metal" 39 1.95
 	asteroids "large metal" 21 0.87
-	minables silver 6 2.38438
+	minables iron 2 1.59305
+	minables titanium 32 2.38141
 	object
 		sprite star/g0
 		distance 10.2222
@@ -622,8 +623,8 @@ planet "Messier 51 Wormhole"
 
 planet Negehe'zira
 	attributes sheragi
-	description `You can't believe what you're seeing: this is a sheragi planet. The cities feature an incredibly accurate hexagonally shaped buildings that are much taller than everything you've found in human space.`
-	spaceport `At first sight, you're not given much attention. However, you can see the sheragis giving you a glance from afar. A small sheragi points its wing to you, saying something to the person next to it.`
+	description `You can't believe what you're seeing: this is a sheragi planet. The cities feature buildings that are much taller than everything you've found in human space.`
+	spaceport `The dragonfolk are not giving you too much attention, at first sight. However, you can see them giving you glances. The quantity of people here is outstandingly low, though, since they fly everywhere.`
 
 planet "Niri Pug"
 	attributes pug messier
