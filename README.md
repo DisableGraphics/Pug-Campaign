@@ -4,6 +4,9 @@ A WIP Pug Campaign for <a href=https://github.com/endless-sky/endless-sky>Endles
 # How to play
 If you download this plugin, go to a system near Phurad, which can only be accessed by Jump Drive.
 
+# Hanging around:
+-  <a href=https://discord.gg/RQMf3tb7fz> Discord </a>
+
 # Notice
 The objective of this plugin is to be merged with the main game at some point. Please take this into consideration when contributing to this plugin, as all assets should be licensed with a GPLv3-compatible license and the conversations, missions and whatever text thingy you submit may be subject to modifications from me or any of the Endless Sky developers to the point it's almost unrecognizeable from your style.
 
